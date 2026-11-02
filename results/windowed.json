@@ -1,0 +1,68 @@
+{
+  "within_session": {
+    "per_epoch_accuracy": 0.9609090909090909,
+    "windows": {
+      "5": {
+        "window": 5,
+        "accuracy": 0.9954545454545455,
+        "attack_recall": 1.0,
+        "false_alarm": 0.008928571428571428,
+        "n_windows": 220
+      },
+      "11": {
+        "window": 11,
+        "accuracy": 1.0,
+        "attack_recall": 1.0,
+        "false_alarm": 0.0,
+        "n_windows": 100
+      },
+      "15": {
+        "window": 15,
+        "accuracy": 1.0,
+        "attack_recall": 1.0,
+        "false_alarm": 0.0,
+        "n_windows": 73
+      },
+      "25": {
+        "window": 25,
+        "accuracy": 1.0,
+        "attack_recall": 1.0,
+        "false_alarm": 0.0,
+        "n_windows": 44
+      }
+    }
+  },
+  "cross_session": {
+    "per_epoch_accuracy": 0.47087229014692283,
+    "windows": {
+      "5": {
+        "window": 5,
+        "accuracy": 0.47645144716561055,
+        "attack_recall": 0.24497574497574498,
+        "false_alarm": 0.2973247544869624,
+        "n_windows": 5839
+      },
+      "11": {
+        "window": 11,
+        "accuracy": 0.4804069329314243,
+        "attack_recall": 0.24542682926829268,
+        "false_alarm": 0.28986587183308493,
+        "n_windows": 2654
+      },
+      "15": {
+        "window": 15,
+        "accuracy": 0.48201438848920863,
+        "attack_recall": 0.24740124740124741,
+        "false_alarm": 0.2886178861788618,
+        "n_windows": 1946
+      },
+      "25": {
+        "window": 25,
+        "accuracy": 0.48671808054841476,
+        "attack_recall": 0.2517361111111111,
+        "false_alarm": 0.28426395939086296,
+        "n_windows": 1167
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "timeline_epochs": 1100,
+  "detection_only": {
+    "under_protection_rate": 0.5045454545454545,
+    "safe_action_rate": 0.4954545454545455,
+    "attack_protection_rate": 0.0,
+    "sophisticated_RTL_recall": 0.0,
+    "mean_exposure_epochs": 555
+  },
+  "detect_reactive": {
+    "under_protection_rate": 0.02090909090909091,
+    "safe_action_rate": 0.9790909090909091,
+    "attack_protection_rate": 0.9675675675675676,
+    "sophisticated_RTL_recall": 0.9533527696793003,
+    "mean_exposure_epochs": 23
+  },
+  "full_loop": {
+    "under_protection_rate": 0.012727272727272728,
+    "safe_action_rate": 0.9872727272727273,
+    "attack_protection_rate": 1.0,
+    "sophisticated_RTL_recall": 0.9650145772594753,
+    "mean_exposure_epochs": 14
+  }
+}

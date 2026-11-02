@@ -1,0 +1,21 @@
+# uav-gps-spoofing-defence
+
+# dependencies and build output
+node_modules/
+.next/
+dist/
+build/
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# 149 MB of research data -- see the README for where to obtain it
+dataset/
+
+# paper drafts and third-party papers (not ours to republish)
+paper/
+*.pdf
+*.docx

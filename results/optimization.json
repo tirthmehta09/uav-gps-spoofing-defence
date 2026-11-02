@@ -1,0 +1,40 @@
+{
+  "mc_xgb_holdout": {
+    "acc": 0.9311620260967841,
+    "macro_f1": 0.9230898601061884
+  },
+  "mc_extratrees_holdout": {
+    "acc": 0.9222576115620398,
+    "macro_f1": 0.9120784781376964
+  },
+  "mc_ensemble_holdout": {
+    "acc": 0.9284222062399398,
+    "macro_f1": 0.9196577994968683
+  },
+  "mc_xgb_5fold_random": {
+    "acc_mean": 0.9321968640997417,
+    "acc_std": 0.0008338804327529998
+  },
+  "mc_xgb_5fold_timeblock": {
+    "acc_mean": 0.5213441992641898,
+    "acc_std": 0.1359603947108177
+  },
+  "bin_xgb_holdout": {
+    "acc": 0.9735264906332408,
+    "macro_f1": 0.9726696698180322,
+    "detection_rate": 0.9791897406004081,
+    "false_alarm": 0.034540019926934576
+  },
+  "bin_ensemble_holdout": {
+    "acc": 0.973594986129662,
+    "macro_f1": 0.9727355966607774
+  },
+  "bin_xgb_5fold_random": {
+    "acc_mean": 0.9728496195559513,
+    "acc_std": 0.0008525231228355118
+  },
+  "bin_xgb_5fold_timeblock": {
+    "acc_mean": 0.7174162199423649,
+    "acc_std": 0.12159870300140299
+  }
+}
